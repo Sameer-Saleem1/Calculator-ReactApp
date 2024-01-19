@@ -25,11 +25,11 @@ const Calculator = () => {
 
   return (
     <center className="my-5 calculatorContainer ">
-      <h3>Calculator</h3>
+      <h2>Calculator</h2>
       <input className="display" type="text" />
       <div className="buttonContainer">
         {array.map((e) => (
-          <button>{e}</button>
+          <button key={e}>{e}</button>
         ))}
       </div>
     </center>
