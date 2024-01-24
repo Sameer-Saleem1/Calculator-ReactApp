@@ -8,7 +8,6 @@ function App() {
   const [calVal, setCalVal] = useState("");
 
   const ButtonClicked = (buttonText) => {
-    console.log(buttonText);
     if (buttonText === "C") {
       setCalVal("");
     } else if (buttonText === "=") {
